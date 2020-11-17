@@ -1,0 +1,11 @@
+<ng-container *ngFor="let libro of libros;index as i">
+    <div>
+        <img src="assets/{{libro.img}}">
+    </div>
+    <div>
+        <h1>{{libro.titulo}}</h1>
+        <h6>{{libro.autor}}</h6>
+        <h6>{{libro.editorial}}</h6>
+        <p>{{libro.descripcion}}</p>
+    </div>
+</ng-container>
